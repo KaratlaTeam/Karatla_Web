@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       getPages: _getPages(),
       routingCallback: _routingCallback(),
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
       ),
         onInit: (){
           printInfo(info: "onInit-------");

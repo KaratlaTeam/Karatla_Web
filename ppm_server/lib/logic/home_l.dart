@@ -7,7 +7,7 @@ import 'package:ppm_server/model/question_data_model.dart';
 import 'package:ppm_server/state/home_s.dart';
 
 class HomeL extends GetxController with StateMixin<HomeS> {
-  late HomeS homeS;
+  HomeS? homeS;
 
   @override
   void onInit() {
