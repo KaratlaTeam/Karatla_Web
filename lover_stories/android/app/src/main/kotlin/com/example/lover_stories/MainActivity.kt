@@ -1,0 +1,6 @@
+package com.example.lover_stories
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
